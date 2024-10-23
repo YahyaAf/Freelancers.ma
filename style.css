@@ -1,18 +1,24 @@
 *{
     padding: 0;
     margin: 0;
-    font-size: small;
+
 
 }
+html {
+    font-size: 10px; 
+}
 body{
-    width: 375px;;
+
+    margin: 0 auto;
 }
 
 .section1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
 }
 .image1{
     width: 202px;
@@ -22,10 +28,17 @@ body{
     display: flex;
     flex-direction: column;
     text-align: right;
-    width: 70%;
-
+    margin-top: 10px;
+    width: 50%;
+    gap: 5px;
+    
 }
-span{
+.class-section1 p{
+    font-size: 10px;
+}
+
+
+h1 span{
     color: #1E88E5;
 }
 p{
@@ -36,14 +49,17 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    margin-top: 10px;
+}
+.div-titre p{
+    font-size: 10px;
 }
 .section2{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 .div1{
     display: flex;
@@ -64,4 +80,191 @@ p{
 .div2{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.div2 p{
+    color: #252525;
+}
+.div2 u{
+    color: #1E88E5;
+}
+.image11{
+    width: 50%;
+}
+
+/* section salma de tablette */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    body{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-size: 24px;
+    }
+    h1 span{
+        font-size: 24px;
+    }
+    body p{
+        font-size: 20px;
+    }
+    .class-section1 p{
+        font-size: 15px;
+    }
+    .image11{
+        width: 50%;
+    }
+    .image1{
+        width: 100%;
+    }
+    
+    .section1{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center
+    }
+    .class-section1{
+        width: 40%;
+        display: flex;
+    }
+    .section2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;  
+    }
+    .div1{
+        width: 40%;
+    }
+    .div1 h3{
+        font-size: 25px;
+    }
+    .div1 img{
+
+    }
+}
+
+/* end section salma de tablette */
+
+/* section salma de desktop */
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px){
+    body{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h1 span{
+        font-size: 30px;
+    }
+    body p{
+        font-size: 20px;
+    }
+    .class-section1 p{
+        font-size: 15px;
+    }
+    .image11{
+        width: 50%;
+    }
+    .image1{
+        width: 100%;
+    }
+    
+    .section1{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center
+    }
+    .class-section1{
+        width: 40%;
+        display: flex;
+    }
+    .section2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    .div1{
+        width: 40%;
+    }
+    .div1 u{
+        font-size: 20px;
+    }
+    .div1 h3{
+        font-size: 25px;
+    }
+    .div1 img{
+
+    }
+}
+
+/* end section salma de desktop */
+
+/* section salma de desktop */
+
+@media only screen and (min-width: 1280px) {
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h1 span{
+        font-size: 30px;
+    }
+    body p{
+        font-size: 20px;
+    }
+    .class-section1 p{
+        font-size: 15px;
+    }
+    .image11{
+        width: 50%;
+    }
+    .image1{
+        width: 100%;
+    }
+    
+    .section1{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center
+    }
+    .class-section1{
+        width: 40%;
+        display: flex;
+    }
+    .section2 {
+        margin: 0 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .div1{
+        width: 40%;
+    }
+    .div1 u{
+        font-size: 20px;
+    }
+    .div1 h3{
+        font-size: 25px;
+    }
+    .div1 img{
+
+    }
 }
