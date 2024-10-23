@@ -404,7 +404,6 @@ nav p span{
         margin-bottom: 2rem;
     }
     /* end section 2*/
-
     
 }
 /* end for petit disktop */
@@ -786,3 +785,362 @@ p{
 }
 
 /* end section salma de desktop */
+
+
+/* **********************************
+******** end section category  ******
+********    home page        ********
+*********************************** */
+:root{
+    --blue_color:#1E88E5;
+    --white_color:#fff;
+    --bg_color:rgb(4, 27, 231);
+    --grey_color:#9D9D9D;
+    --border_color:rgba(151, 151, 151, 0.486);
+}
+
+.category{
+    max-width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.category .content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.category .content .title{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.category .content .title h2{
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.category .content .title h2 span{
+    color: var(--blue_color);
+}
+
+.category .content .button{
+    padding:0 0 2rem 0;
+}
+
+.category .content .button a{
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: var(--blue_color);
+    color: var(--white_color);
+    border-radius: 1rem;
+    border: 1px solid var(--blue_color);
+    transition: .2s ease;
+}
+
+.category .content .button a:hover{
+    background-color: var(--bg_color);
+    border: 1px solid var(--grey_color);
+    cursor: pointer;
+}
+
+.category .content .images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 3rem; 
+}
+
+.category .content .images .skils{
+    position: relative;
+}
+
+.category .content .images .skils h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 1.4rem;
+    color: var(--white_color);
+}
+
+@media (min-width:1280px) {
+    
+    .category .content .title h2{
+        font-size: 3rem;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+    .category .content .images .skils h3{
+        font-size: 2.4rem;
+    }
+    .category .content .button{
+        display: flex;
+        justify-content: center;
+        padding: 3rem 0;
+    }
+    
+    .category .content .button a{
+        font-size: 2.4rem;
+    }
+    
+    .category .content .button a:hover{
+        border: solid 1px var(--border_color);
+        background-color: var(--bg_color);
+        cursor: pointer;
+    }
+
+    .category .content .images{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
+@media ( min-width:1024px) and (max-width:1279px ){
+    .category .content .images .skils h3{
+        font-size: 2rem;
+    }
+    .category .content .title h2{
+        font-size: 2.4rem;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+    .category .content .button a{
+        font-size: 2.2rem;
+    }
+}
+
+/* *********************************
+******** end section category ******
+********     home page       *******
+********************************** */
+
+/* *********************************
+***** start section portfolios *****
+********     home page       *******
+********************************** */
+
+.portfolio{
+    max-width:100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.portfolio .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.portfolio .content .images{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.portfolio .content .heading{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.portfolio .content .heading h3{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--grey_color);
+}
+
+.portfolio .content .heading h4{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.portfolio .content .heading h4 span{
+    color: var(--blue_color);
+}
+
+.portfolio .content .images .tikets{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    gap: 2rem;
+}
+
+.portfolio .content .images .tikets img{
+    width: 24rem;
+    height: 16rem;
+    border-radius: 1rem;
+}
+
+.portfolio .content .images .tikets .bottom-contenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 4rem 3rem 3rem;
+    gap: 4rem;
+}
+.tikets .bottom-contenu h5{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.tikets .bottom-contenu p{
+    font-size: 1.4rem;
+    color: var(--grey_color);
+}
+
+.tikets .bottom-contenu i{
+    font-size: 2rem;
+    color: var(--blue_color);
+}
+
+.tikets .bottom-contenu i:hover{
+    color: var(--bg_color);
+    cursor: pointer;
+}
+
+.portfolio .sous-section{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.portfolio .sous-section .div2, .div3{
+    width: 2rem;
+    height: .5rem;
+    border-radius: 3rem;
+    background: #585859;
+}
+
+.portfolio .sous-section .div1{
+    border-radius: 3rem;
+    width: 3rem;
+    height: .5rem;
+    background: var(--blue_color);
+}
+
+@media (min-width:1289px) {
+    .portfolio{
+        width: 100%;
+        height: auto;
+        padding: 0 2rem;
+    }
+    .portfolio .content{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    
+    .portfolio .content .heading{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+    
+    .portfolio .content .heading h3{
+        font-size: 3.6rem;
+        font-weight: 500;
+        color: var(--grey_color);
+    }
+    
+    .portfolio .content .heading h4{
+        font-size: 5.6rem;
+        font-weight: bold;
+    }
+    
+    .portfolio .content .heading h4 span{
+        color: var(--blue_color);
+    }
+    
+    .portfolio .content .images{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+     
+    .portfolio .content .images .tikets{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        box-shadow: 2px 4px 8px var(--grey_color);
+        border-radius: 1rem;
+    }
+    .portfolio .content .images .tikets img{
+        width: 38.3rem;
+        height: 32.3rem;
+        border-radius: 1rem;
+    }
+    
+    .portfolio .content .images .tikets .bottom-contenu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0rem 4rem 3rem 3rem;
+    }
+    .tikets .bottom-contenu h5{
+        font-size: 3rem;
+        text-transform: capitalize;
+    }
+    
+    .tikets .bottom-contenu p{
+        font-size: 2.4rem;
+        color: var(--grey_color);
+    }
+    
+    .tikets .bottom-contenu i{
+        font-size: 3rem;
+        color: var(--blue_color);
+    }
+    
+    .tikets .bottom-contenu i:hover{
+        color: var(--bg_color);
+        cursor: pointer;
+    }
+    
+    .portfolio .sous-section{
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .portfolio .sous-section .div2, .div3{
+        width: 3rem;
+        min-height: 1rem;
+        border-radius: 3rem;
+        background: #585859;
+    }
+    
+    .portfolio .sous-section .div1{
+        border-radius: 3rem;
+        width: 6rem;
+        height: 1rem;
+        background: var(--blue_color);
+    }
+}
+
+/* *********************************
+****** end section portfolios ******
+********     home page       *******
+********************************* */
