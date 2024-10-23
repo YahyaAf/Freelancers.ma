@@ -17,9 +17,6 @@ header{
 }
 /* nav */
 nav {
-    width: 75%;
-    margin: 0 auto;
-    height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,7 +39,7 @@ ul {
     gap: 4rem;
 }
 .size-logo{
-    width: 1.5rem; 
+    width: 10rem; 
     height: auto;
     
 }
@@ -57,56 +54,90 @@ nav p span{
 .color-login{
     background-color: rgb(5, 126, 240);
     color: white;
-    padding: 10px;
+    padding: 5px;
     border-radius: 3rem;
+    font-weight: bold;
+}
+.display-flex{
+    display: flex;
 }
 /* end nav */
 
-/* section 1 */
+/* section 1 mobile */
 .section1{
     display: flex;
     justify-content: center;  
     background-color: rgba(242, 250, 250, 1);
 }
+.section1 img{
+    width: 16rem;
+}
 .section1 div{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 3.5rem;
+  align-items: center;
+  gap: 1rem;
 }
 .section1 div div{
     display: flex;
 }
 .section1 h1{
-    font-size: 5rem;
+    font-size: 1.5rem;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    
 }
 .section1 p{
-    font-size: 1.5rem;
+    font-size: 8px;
     color: gray;
+   
+
 }
 .section1 button{
-    background-color: rgb(5, 126, 240);
-    color: white;
-    padding: 1rem;
-    border: solid 1px rgb(5, 126, 240);
-    border-radius: 1.5rem;
+   background-color: rgba(30, 136, 229, 1);
+   border: 1px solid rgba(30, 136, 229, 1) ;
+   border-radius: 8px;
+   color: white;
+   padding: 3px;
+   width: 8rem;
+   
+ 
 }
 .section1 input{
-    width: 100%; 
-    padding: 1rem; 
-    border-radius: 8px; 
-    border: 1px solid #ccc; 
-    background-color: #f9f9f9; 
-    font-size: 1.3rem;
+    border: 1px solid white ;
+    font-size: 1rem;
+    border-radius: 8px;
+    height: 2.5rem;
 }
-/* end section 1 */
+.section1 input::placeholder {
+    font-size: 1rem; 
+    color: #999;  
+    text-align: center;    
+}
+.section1 table{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+.text-button{
+    font-size: 8px;
+    color: white;
+    list-style-type: none;
+}
+/* end section 1 mobile */
 
-/* section2  */
+/* section 2 mobile */
 .section2{
     width: 80%;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-around; 
+    display: block;
+    justify-content: center; 
+    align-items: center;
     background-color: white; 
     border-radius: 1.5rem;
     padding: 4rem;
@@ -117,22 +148,380 @@ nav p span{
     
 }
 .section2 img{
-    width: 7rem;
+    width: 5rem;
     margin: 0 auto;  
 }
 .section2 div{
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
-    gap: 1rem;
-}
-.section2 p{
-    text-align: center;
-    font-size: 1.5rem;
-    color: gray;
+    gap: 5px;
 }
 .section2 h3{
+    font-size: 1.5rem;
     text-align: center;
-    font-size: 2.5rem;
 }
-/* end section 2 */
+.section2 p{
+    font-size: 1rem;
+    color: gray;
+    text-align: center; 
+}
+.space{
+    margin-bottom: 2rem;
+}
+
+/* end section 2 mobile */
+
+
+/* css for tabllete */
+@media screen and (min-width: 768px) and (max-width: 1023px){ 
+    /* section 1  */
+    .section1{
+        display: flex;
+        justify-content: center;  
+        background-color: rgba(242, 250, 250, 1);
+    }
+    .section1 img{
+        width: 30rem;
+    }
+    .section1 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    }
+    .section1 div div{
+        display: flex;
+    }
+    .section1 h1{
+        font-size: 2.7rem;
+        display: flex;
+        font-weight: bold;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3rem;
+        
+    }
+    .section1 p{
+        font-size: 1.3rem;
+        color: gray;
+    
+
+    }
+    .section1 button{
+    background-color: rgba(30, 136, 229, 1);
+    border: 1px solid rgba(30, 136, 229, 1) ;
+    border-radius: 8px;
+    color: white;
+    padding: 3px;
+    width: 10rem;
+    height: 3rem;
+    
+    
+    }
+    .section1 input{
+        border: 1px solid white ;
+        font-size: 1rem;
+        border-radius: 8px;
+        height: 3rem;
+    }
+    .section1 input::placeholder {
+        font-size: 1rem; 
+        color: #999;
+        text-align: center;     
+    }
+    .section1 table{
+        display: flex;
+        align-items: center;
+        padding-left: 1rem;
+        padding-bottom: 2rem;
+    }
+    .text-button{
+        font-size: 1rem;
+        color: white;
+        list-style-type: none;
+    }
+    /* end section 1 */
+
+    /* section 2*/
+    .section2{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        background-color: white; 
+        border-radius: 1.5rem;
+        padding: 4rem;
+        gap: 3rem;
+    }
+    .section2:hover {
+        border-color: #d0e7ff; 
+        box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.1); 
+        
+    }
+    .section2 img{
+        width: 7rem;
+        margin: 0 auto;  
+    }
+    .section2 div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+    .section2 h3{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .section2 p{
+        font-size: 1.2rem;
+        color: gray;
+        text-align: center; 
+    }
+    .space{
+        margin-bottom: 2rem;
+    }
+
+    /* end section 2*/
+    
+}
+/* end for tabllete */
+
+
+
+/* css for petit disktop */
+@media screen and (min-width: 1024px) and (max-width: 1279px){ 
+    /* section 1  */
+    .section1{
+        display: flex;
+        justify-content: center;  
+        background-color: rgba(242, 250, 250, 1);
+    }
+    .section1 img{
+        width: 40rem;
+    }
+    .section1 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    }
+    .section1 div div{
+        display: flex;
+    }
+    .section1 h1{
+        font-size: 3.2rem;
+        display: flex;
+        font-weight: bold;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3rem;
+        
+    }
+    .section1 p{
+        font-size: 1.6rem;
+        color: gray;
+    
+
+    }
+    .section1 button{
+    background-color: rgba(30, 136, 229, 1);
+    border: 1px solid rgba(30, 136, 229, 1) ;
+    border-radius: 8px;
+    color: white;
+    padding: 3px;
+    width: 13rem;
+    height: 4rem;
+    }
+
+    .section1 input{
+        border: 1px solid white ;
+        font-size: 2rem;
+        border-radius: 8px;
+        height: 4rem;
+    }
+    .section1 input::placeholder {
+        font-size: 1.6rem; 
+        color: #999;
+        text-align: center; 
+      ;    
+    }
+    .section1 table{
+        display: flex;
+        align-items: center;
+        padding-left: 1rem;
+        padding-bottom: 2rem;
+    }
+    .text-button{
+        font-size: 1rem;
+        color: white;
+        list-style-type: none;
+    }
+    /* end section 1 */
+    /* section 2*/
+    .section2{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        background-color: white; 
+        border-radius: 1.5rem;
+        padding: 4rem;
+        gap: 8rem;
+    }
+    .section2:hover {
+        border-color: #d0e7ff; 
+        box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.1); 
+        
+    }
+    .section2 img{
+        width: 8rem;
+        margin: 0 auto;  
+    }
+    .section2 div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+    .section2 h3{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .section2 p{
+        font-size: 1.5rem;
+        color: gray;
+        text-align: center; 
+    }
+    .space{
+        margin-bottom: 2rem;
+    }
+    /* end section 2*/
+
+    
+}
+/* end for petit disktop */
+
+
+/* css for grand disktop */
+@media screen and (min-width: 1280px){ 
+    /* section 1  */
+    .section1{
+        display: flex;
+        justify-content: center;  
+        background-color: rgba(242, 250, 250, 1);
+        gap: 3rem;
+    }
+    .section1 img{
+        width: 45rem;
+    }
+    .section1 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    }
+    .section1 div div{
+        display: flex;
+    }
+    .section1 h1{
+        font-size: 3.5rem;
+        display: flex;
+        font-weight: bold;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3rem;
+        
+    }
+    .section1 p{
+        font-size: 1.7rem;
+        color: gray;
+    
+
+    }
+    .section1 button{
+    background-color: rgba(30, 136, 229, 1);
+    border: 1px solid rgba(30, 136, 229, 1) ;
+    border-radius: 8px;
+    color: white;
+    padding: 3px;
+    width: 13rem;
+    height: 4rem;
+    }
+
+    .section1 input{
+        border: 1px solid white ;
+        font-size: 2rem;
+        border-radius: 8px;
+        height: 4rem;
+    }
+    .section1 input::placeholder {
+        font-size: 1.6rem; 
+        color: #999;
+        text-align: center; 
+      ;    
+    }
+    .section1 table{
+        display: flex;
+        align-items: center;
+        padding-left: 1rem;
+        padding-bottom: 2rem;
+    }
+    .text-button{
+        font-size: 1.5rem;
+        color: white;
+        list-style-type: none;
+    }
+    /* end section 1 */
+
+    /* section2  */
+
+    .section2{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around; 
+        background-color: white; 
+        border-radius: 1.5rem;
+        padding: 4rem;
+        
+    }
+    .section2:hover {
+        border-color: #d0e7ff; 
+        box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.1); 
+        
+    }
+    .section2 img{
+        width: 7rem;
+        margin: 0 auto;  
+    }
+    .section2 div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .section2 p{
+        text-align: center;
+        font-size: 1.5rem;
+        color: gray;
+    }
+    .section2 h3{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    /* end section 2 */
+    
+
+    
+}
+/* end for grand disktop */
+
