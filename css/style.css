@@ -1196,6 +1196,7 @@ section .last-section-holder {
 
 /* footer styling */
 
+
 .footer-holder {
     display: flex;
     justify-content: space-between;
@@ -1204,24 +1205,32 @@ section .last-section-holder {
 
 .footer-holder .logo-side,.for-clients-side,.for-freelancers,.call-us-side{
     width: auto;
+    width: 32rem;
+    margin-left: 9rem;
 }
-
-.footer-holder .logo-side,.for-clients-side,.for-freelancers,.call-us-side{
-     width: 32rem;
-     margin-left: 8rem;
-}
-
 
 .footer-holder .for-clients-side ul{
     display: block;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.footer-holder .for-clients-side,.for-freelancers ul li{
+    padding-top: 2rem;
+    color: black; 
+    font-family: sans-serif;
+    font-size: 2rem;
 }
 
 .footer-holder .for-freelancers ul{
     display: block;
+    text-align: center;
+    padding-top: 2rem;
 }
 
 .footer-holder .call-us-side{
-    margin-right: 5rem;
+    margin-right: 5rem; 
+
 }
 
 .footer-holder .logo-side .footer-logo-content p{
@@ -1232,6 +1241,15 @@ section .last-section-holder {
     padding-top: 3rem;
 }
 
+.footer-holder .social-media-icons{
+    margin-top: 3rem;
+}
+
+.footer-holder .social-media-icons img{
+    height: 4rem;
+    width: 4rem;
+    padding-left: 1.5rem;
+}
 
 
 /***********************************
