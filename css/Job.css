@@ -81,6 +81,31 @@ body {
 .lorem{
     font-size: 1.2rem;
 }
+.scroller{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 24px;
+    width: 50%; /* or any width you prefer */
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 25px
+}
+.scroller span{
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 3px;
+}
+.scroller :nth-child(2){
+    background-color: #3575E2;
+    color: white;
+}
+.scroller i{
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 3px;
+}
 /* end mobile section */
 
 /* css for tabllete */
@@ -157,6 +182,19 @@ body {
     }
     .lorem{
         font-size: 1.5rem;
+    }
+    .scroller{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        align-items: center;
+        margin-top: 5%;
+        width: 20%;
+        font-size: 18px;
+    }
+    .scroller span{
+        width: 20px;
+        text-align: center;
     }
     /* end section */
     
@@ -240,6 +278,19 @@ body {
     .lorem{
         font-size: 1.7rem;
     }
+    .scroller{
+        display: flex;
+        justify-content: space-between;
+        gap: 7px;
+        align-items: center;
+        margin-top: 5%;
+        width: 20%;
+        font-size: 18px;
+    }
+    .scroller span{
+        width: 20px;
+        text-align: center;
+    }
     /* end section */
 }
 /* end for petit disktop */
@@ -320,6 +371,19 @@ body {
     }
     .lorem{
         font-size: 1.7rem;
+    }
+    .scroller{
+        display: flex;
+        justify-content: space-between;
+        gap: 7px;
+        align-items: center;
+        margin-top: 5%;
+        width: 20%;
+        font-size: 18px;
+    }
+    .scroller span{
+        width: 20px;
+        text-align: center;
     }
     /* end section */
     
