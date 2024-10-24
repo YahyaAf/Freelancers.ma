@@ -1,0 +1,330 @@
+html {
+    font-size: 10px; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Arial, sans-serif; 
+}
+/* section mobile  */
+.select-job{
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid gray; 
+    background-color: #f9f9f9;
+    color: #333;
+}
+.select-div h1{
+    padding: 5px;
+}
+.select-div{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.div-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 1rem;
+    flex-wrap: wrap;
+}
+.origin-logo{
+    width: 5rem;
+}
+.div-card{
+    display: flex;
+    padding: 1rem;
+    border: 1px solid rgb(255, 255, 255);
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.div-card:hover{
+    border-color: #d0e7ff; 
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.1); 
+}
+.display-flex{
+    display: flex;
+}
+.linear-company{
+    font-size: 1.5rem;
+}
+.software{
+    display: flex;
+    gap: 2rem;
+    
+}
+.new-post{
+    color: rgb(4, 30, 103);
+    background-color: rgb(255, 0, 255);
+    border-radius: 5px;
+    padding: 5px;
+}
+.div-images{
+    display: flex;
+    gap: 2rem;
+}
+.images-logo{
+    width: 1.3rem;
+}
+.paragraphe-images{
+    padding: 1px;
+}
+.lorem{
+    font-size: 1.2rem;
+}
+/* end mobile section */
+
+/* css for tabllete */
+@media screen and (min-width: 768px) and (max-width: 1023px){ 
+    /* section   */
+    .select-job{
+        padding: 5px;
+        border-radius: 5px;
+        border: 2px solid gray; 
+        background-color: #f9f9f9;
+        color: #333;
+    }
+    .select-div h1{
+        padding: 5px;
+        font-size: 2.5rem;
+    }
+    .select-div{
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-top: 2rem;
+    }
+    .div-content{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding-left: 1rem;
+        flex-wrap: wrap;
+    }
+    .origin-logo{
+        width: 7rem;
+    }
+    .div-card{
+        display: flex;
+        padding: 1rem;
+        border: 1px solid rgb(255, 255, 255);
+        width: 98%;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+    .div-card:hover{
+        border-color: #d0e7ff; 
+        box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.1); 
+    }
+    .display-flex{
+        display: flex;
+    }
+    .linear-company{
+        font-size: 1.7rem;
+    }
+    .software{
+        display: flex;
+        gap: 2rem;  
+    }
+    .software-engineer{
+        font-size: 2rem;
+    }
+    .new-post{
+        color: rgb(4, 30, 103);
+        background-color: rgb(255, 0, 255);
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .div-images{
+        display: flex;
+        gap: 2rem;
+    }
+    .images-logo{
+        width: 1.7rem;
+    }
+    .paragraphe-images{
+        padding: 4px;
+    }
+    .lorem{
+        font-size: 1.5rem;
+    }
+    /* end section */
+    
+}
+/* end for tabllete */
+
+
+/* css for petit disktop */
+@media screen and (min-width: 1024px) and (max-width: 1279px){ 
+     /* section  */
+     .select-job{
+        padding: 5px;
+        border-radius: 5px;
+        border: 2px solid gray; 
+        background-color: #f9f9f9;
+        color: #333;
+        font-size: 2rem;
+    }
+    .select-div h1{
+        padding: 5px;
+        font-size: 2.7rem;
+    }
+    .select-div{
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-top: 2rem;
+    }
+    .div-content{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding-left: 1rem;
+        flex-wrap: wrap;
+    }
+    .origin-logo{
+        width: 7.5rem;
+    }
+    .div-card{
+        display: flex;
+        padding: 1rem;
+        border: 1px solid rgb(255, 255, 255);
+        width: 98%;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+    .div-card:hover{
+        border-color: #d0e7ff; 
+        box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.1); 
+    }
+    .display-flex{
+        display: flex;
+    }
+    .linear-company{
+        font-size: 1.7rem;
+    }
+    .software{
+        display: flex;
+        gap: 2rem;  
+    }
+    .software-engineer{
+        font-size: 2rem;
+    }
+    .new-post{
+        color: rgb(4, 30, 103);
+        background-color: rgb(255, 0, 255);
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .div-images{
+        display: flex;
+        gap: 2rem;
+    }
+    .images-logo{
+        width: 1.7rem;
+    }
+    .paragraphe-images{
+        padding: 6px;
+    }
+    .lorem{
+        font-size: 1.7rem;
+    }
+    /* end section */
+}
+/* end for petit disktop */
+
+
+/* css for grand disktop */
+@media screen and (min-width: 1280px){ 
+    /* section  */
+    .select-job{
+        padding: 5px;
+        border-radius: 5px;
+        border: 2px solid gray; 
+        background-color: #f9f9f9;
+        color: #333;
+        font-size: 2rem;
+    }
+    .select-div h1{
+        padding: 5px;
+        font-size: 2.7rem;
+    }
+    .select-div{
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-top: 2rem;
+    }
+    .div-content{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding-left: 1rem;
+        flex-wrap: wrap;
+    }
+    .origin-logo{
+        width: 7.5rem;
+    }
+    .div-card{
+        display: flex;
+        padding: 1rem;
+        border: 1px solid rgb(255, 255, 255);
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+    .div-card:hover{
+        border-color: #d0e7ff; 
+        box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.1); 
+    }
+    .display-flex{
+        display: flex;
+    }
+    .linear-company{
+        font-size: 1.7rem;
+    }
+    .software{
+        display: flex;
+        gap: 2rem;  
+    }
+    .software-engineer{
+        font-size: 2rem;
+    }
+    .new-post{
+        color: rgb(4, 30, 103);
+        background-color: rgb(255, 0, 255);
+        border-radius: 5px;
+        padding: 5px;
+    }
+    .div-images{
+        display: flex;
+        gap: 2rem;
+    }
+    .images-logo{
+        width: 1.7rem;
+    }
+    .paragraphe-images{
+        padding: 6px;
+    }
+    .lorem{
+        font-size: 1.7rem;
+    }
+    /* end section */
+    
+}
+/* end for grand disktop */
+
+
+

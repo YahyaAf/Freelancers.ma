@@ -521,10 +521,6 @@ nav p span{
     
 }
 /* end for grand disktop */
-
-
-
-
 .section11 {
     display: flex;
     flex-direction: column;
@@ -656,9 +652,9 @@ p{
     .div1 h3{
         font-size: 25px;
     }
-    .div1 img{
+    /*.div1 img{
 
-    }
+    }*/
 }
 
 /* end section salma de tablette */
@@ -716,9 +712,9 @@ p{
     .div1 h3{
         font-size: 25px;
     }
-    .div1 img{
+    /*.div1 img{
 
-    }
+    }*/
 }
 
 /* end section salma de desktop */
@@ -777,9 +773,9 @@ p{
     .div1 h3{
         font-size: 25px;
     }
-    .div1 img{
+    /*.div1 img{
 
-    }
+    }*/
 }
 
 /* end section salma de desktop */
@@ -1059,13 +1055,13 @@ p{
     }
     
     .portfolio .content .heading h3{
-        font-size: 3.6rem;
+        font-size: 2.4rem;
         font-weight: 500;
         color: var(--grey_color);
     }
     
     .portfolio .content .heading h4{
-        font-size: 5.6rem;
+        font-size: 3rem;
         font-weight: bold;
     }
     
@@ -1142,3 +1138,272 @@ p{
 ****** end section portfolios ******
 ********     home page       *******
 ********************************* */
+
+/* last section styling & footer*/
+section .last-section-holder {
+    text-align: center;
+    background-color: rgba(232, 253, 253, 0.999);
+    height: 25rem;
+    position: relative;
+    top: 11rem;
+}
+  
+.last-section-holder h3,
+  p,
+  input,
+  button {
+    font-family: sans-serif;
+}
+  
+.last-section-holder h1 {
+    padding-top: 3.5rem;
+    font-family: sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+  
+.last-section-holder p {
+    letter-spacing: 0.1rem;
+    font-family: sans-serif;
+    color: rgb(49, 48, 48);
+}
+  
+.last-section-holder input {
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    height: 3rem;
+    width: 31rem;
+    border: none;
+}
+  
+.last-section-holder button {
+    margin-right: 5rem;
+    width: 11rem;
+    height: 2.9rem;
+    border-radius: 0.3rem;
+    background-color: rgb(94, 176, 243);
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: azure;
+    margin-top: 1.5rem;
+    margin-right: 9rem;
+    position: relative;
+    left: 4.6rem;
+    border: none;
+}
+
+/* footer styling */
+
+footer {
+    margin-top: 10rem;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+}
+.footer-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-holder .logo-side,.for-clients-side,.for-freelancers,.call-us-side{
+    width: auto;
+    width: 32rem;
+    margin-left: 9rem;
+}
+
+.call-us-side{
+    margin-left: 3rem;
+}
+
+.footer-holder .for-clients-side ul{
+    display: block;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.footer-holder .for-clients-side h4{
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.footer-holder .call-us-side h4{
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.footer-holder .call-us-side .location,.phone,.email{
+    text-align: center;
+    line-height: 6rem;
+}
+
+.call-us-side .phone{
+    padding-left: 5.2rem;
+}
+
+.call-us-side .email{
+    padding-left: 7rem;
+}
+
+.call-us-side .location,.phone,.email{
+    font-size: 1.5rem;
+    color: black;
+    font-family: sans-serif;
+}
+
+.footer-holder .for-freelancers h3{
+    text-align: center;
+    font-family: sans-serif;
+    color: black ;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.footer-holder .for-clients-side,.for-freelancers ul li{
+    line-height: 4rem;
+    color: black; 
+    font-family: sans-serif;
+    color: rgb(5, 5, 5);
+    padding-right: 2rem;
+}
+  
+.footer-holder .for-clients-side ul li {
+    list-style: none;
+    padding-top: 1rem;
+}
+  
+.footer-holder .logo-side .footer-logo-content p {
+    font-family: sans-serif;
+    color: black;
+}
+  
+.footer-holder .for-clients-side {
+    padding-top: 2rem;
+}
+  
+.footer-holder .for-clients-side h4 {
+    padding-top: 1.5rem;
+    padding-left: 2.3rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+  
+.footer-holder .for-freelancers ul li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(5, 5, 5);
+    padding-right: 4rem;
+}
+  
+.footer-holder .for-freelancers ul li {
+    list-style: none;
+}
+  
+.footer-holder .logo-side .footer-logo-side img {
+    padding-top: -1rem;
+    width : 10rem;
+}
+  
+.footer-holder .for-freelancers {
+    margin-top: 3.8rem;
+}
+  
+.footer-holder .for-freelancers h3 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding-left: 2.5rem;
+}
+  
+.footer-holder .call-us-side {
+    margin-top: 3.5rem;
+    margin-left: 5rem;
+}
+  
+.footer-holder .call-us-side h4{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding-right:0.5rem;
+}
+  
+.footer-holder .call-us-side .location,.phone,.email{
+       padding-top : 1rem;
+}
+  
+.footer-holder .for-freelancers ul li{
+    padding-top: 1.5rem;
+}
+
+footer p{
+    color:gray;
+    text-align : center;
+    font-family : sans-serif;
+    padding : 1rem 0 ;
+}
+  
+/*styling with media*/
+@media (max-width: 767px) {
+    .footer-holder {
+      flex-direction: column;
+      align-items: center; 
+    }
+    
+    .footer-holder .for-freelancers,
+    .footer-holder .for-clients-side,
+    .footer-holder .logo-side {
+      margin: 1rem 0;
+    }
+    .footer-holder .call-us-side{
+      margin-top: 1rem;
+      margin-right : 4.5rem;
+    }
+  
+    .footer-holder .for-clients-side{
+      position: relative;
+      right : 1rem;
+    }
+  
+    .last-section-holder input {
+     margin-top: 2rem;
+     border-radius: 0.6rem;
+     height: 2.5rem;
+     width: 18rem;
+     border: none;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .footer-holder {
+      display: grid;
+      grid-template-columns: repeat(2,auto);
+      grid-template-rows: repeat(2,auto);
+    }
+    .footer-holder .call-us-side{
+      position: relative;
+      right: 3rem;
+      bottom: 1.5rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .footer-holder {
+      flex-direction: row;
+      justify-content: space-between; 
+    }
+    .footer-holder .call-us-side{
+      position: relative;
+      right: 2rem;
+    }
+ }
+ 
+
+/***********************************
+****** end footer portfolios *******
+********     home page       *******
+************************************/
