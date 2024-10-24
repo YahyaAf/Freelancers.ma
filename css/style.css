@@ -1205,8 +1205,13 @@ section .last-section-holder {
 
 .footer-holder .logo-side,.for-clients-side,.for-freelancers,.call-us-side{
     width: auto;
+    background-color: aqua;
     width: 32rem;
     margin-left: 9rem;
+}
+
+.call-us-side{
+    margin-left: 3rem;
 }
 
 .footer-holder .for-clients-side ul{
@@ -1215,8 +1220,51 @@ section .last-section-holder {
     padding-top: 2rem;
 }
 
+.footer-holder .for-clients-side h4{
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.footer-holder .call-us-side h4{
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+.footer-holder .call-us-side .location,.phone,.email{
+    text-align: center;
+    line-height: 6rem;
+}
+
+.call-us-side .phone{
+    padding-left: 5.2rem;
+}
+
+.call-us-side .email{
+    padding-left: 7rem;
+}
+
+.call-us-side .location,.phone,.email{
+    font-size: 1.5rem;
+    color: black;
+    font-family: sans-serif;
+}
+
+.footer-holder .for-freelancers h3{
+    text-align: center;
+    font-family: sans-serif;
+    color: black ;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
 .footer-holder .for-clients-side,.for-freelancers ul li{
-    padding-top: 2rem;
+    line-height: 4rem;
     color: black; 
     font-family: sans-serif;
     font-size: 2rem;
