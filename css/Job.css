@@ -119,6 +119,9 @@ body {
     padding: 5px;
     border-radius: 3px;
 }
+.font-awesome{
+    font-size: 1.5rem;
+}
 /* end mobile section */
 
 /* css for tabllete */
@@ -191,7 +194,7 @@ body {
         width: 1.7rem;
     }
     .paragraphe-images{
-        padding: 4px;
+        font-size: 1.2rem;
     }
     .lorem{
         font-size: 1.5rem;
@@ -208,6 +211,9 @@ body {
     .scroller span{
         width: 20px;
         text-align: center;
+    }
+    .font-awesome{
+        font-size: 1.5rem;
     }
     /* end section */
     
@@ -286,7 +292,7 @@ body {
         width: 1.7rem;
     }
     .paragraphe-images{
-        padding: 6px;
+        font-size: 1.2rem;
     }
     .lorem{
         font-size: 1.7rem;
@@ -303,6 +309,9 @@ body {
     .scroller span{
         width: 20px;
         text-align: center;
+    }
+    .font-awesome{
+        font-size: 1.7rem;
     }
     /* end section */
 }
@@ -380,7 +389,7 @@ body {
         width: 1.7rem;
     }
     .paragraphe-images{
-        padding: 6px;
+        font-size: 1.5rem;
     }
     .lorem{
         font-size: 1.7rem;
@@ -397,6 +406,9 @@ body {
     .scroller span{
         width: 20px;
         text-align: center;
+    }
+    .font-awesome{
+        font-size: 2rem;
     }
     /* end section */
     
