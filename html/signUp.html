@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Découvrez notre site dédié à la vente, l'achat et la location de propriétés. Nous vous offrons un service complet pour trouver la propriété parfaite à Rabat, Casablanca, Marrakech et au-delà."
+    />
+    <meta
+      name="keywords"
+      content="immobilier, vente, achat, location, propriété, Rabat, Casablanca, Marrakech, services immobiliers"
+    />
+    <meta
+      name="author"
+      content="l'entreprise freelancer"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/signUpStyle.css"/>
+    <link rel="stylesheet" href="../css/style.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Login</title>
+  </head>
+  <body>
+     <!-- nav -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <div class="display-flex">
+            <img class="size-logo" src="../images/freelancersLogo.webp" alt="" />
+          </div>
+        </a>
+  
+        <!-- Hamburger button, visible on small screens -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <!-- Collapsible navbar menu -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Find_job.html">Find work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Find_freelancer.html">Find Freelancers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signUp.html">Sign up</a>
+            </li>
+            <li class="nav-item">
+              <a class="color-login" href="login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+     <!-- end nav -->
+    <!-- start Section signUp -->
+    <section class="SignUp">
+        <div class="element_SignUp">
+          <div class="title_SignUp">
+            <h1>Sign Up</h1>
+          </div>
+          <div class="form">
+            <form action="action.php">
+              <div class="name">
+              <label for="name">name:</label>
+              <input
+                type="text"
+                id="name"
+                placeholder="Mark Norman"
+                required
+                maxlength="30"
+                minlength="8"
+                autocomplete="off"
+              />
+          </div>
+          <div class="e-mail">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="seamus.schmidt@gmail.com"
+                required
+                maxlength="40"
+                minlength="15"
+                autocomplete="off"
+              />
+          </div>
+          <div class="password">
+              <label for="password" aria-placeholder="password">password:</label>
+              <input
+                type="password"
+                id="password"
+                required
+                maxlength="20"
+                minlength="8"
+                autocomplete="off"
+              />
+          </div>
+            </form>
+          </div>
+          <div class="button_submit">
+            <button type="submit">Sign Up</button>
+          </div>
+          <div class="or_sign">
+           <div class="div1"></div>
+            <p>Or login with</p>
+            <div class="div1"></div>
+          </div>
+  
+          <div class="sociale-media">
+            <ul>
+              <li>
+                <a href="login.html" aria-label="icons sociale media"
+                  ><i class="fab fa-google"></i
+                ></a>
+              </li>
+              <li>
+                <a href="login.html" aria-label="icons sociale media"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="login.html" aria-label="icons sociale media"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="choix">
+            <span>Already have an account?</span>
+            <a href="login.html">Sign in</a>
+          </div>
+        </div>
+      </section>
+    <!-- end Section signUp -->
+     <!-- footer starts -->
+    <footer>
+        <div class="footer-holder">
+          <div class="logo-side">
+            <div class="footer-logo-side">
+              <img src="../images/logo-image.png" alt="logo-image" />
+            </div>
+            <div class="footer-logo-content">
+              <p>
+                power freelance maketplace system with ability to change the users
+                (freelancers & clients)
+              </p>
+            </div>
+            <div class="social-media-icons">
+              <img src="../images/facebook.webp" alt="facebook-icon" />
+              <img src="../images/instagram.webp" alt="facebook-icon" />
+              <img src="../images/twitter.webp" alt="facebook-icon" />
+            </div>
+          </div>
+          <div class="for-clients-side">
+            <h4>clients</h4>
+            <ul>
+              <li><a href="#" id="find"> Find freelancers </a></li>
+              <li><a href="#" id="post"> Post project</a></li>
+              <li><a href="#" id="refund"> Refund policy</a></li>
+              <li><a href="#" id="privacy"> Privacy policy</a></li>
+            </ul>
+          </div>
+          <div class="for-freelancers">
+            <h3>for freelancers</h3>
+            <ul>
+              <li><a href="#" id="work"> Find work</a></li>
+              <li><a href="#" id="account"> Create account</a></li>
+            </ul>
+          </div>
+          <div class="call-us-side">
+            <h4>Call Us</h4>
+            <div class="location">
+              <img src="../images/carbon_location.png" alt="Location" />
+              <span>Kenya</span>
+            </div>
+            <div class="phone">
+              <img src="../images/carbon_phone-voice.png" alt="Call" />
+              <span>+254 700 000 000</span>
+            </div>
+            <div class="email">
+              <img src="../images/Vector.png" alt="Email" />
+              <span>info@example.com</span>
+            </div>
+          </div>
+        </div>
+        <p>2022 , spacelance ,&copy; all right reserved</p>
+      </footer>
+      <!--footer ends -->
+  
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
