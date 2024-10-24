@@ -113,9 +113,7 @@ body{
         flex-wrap: wrap;
     }
     .freelancer-card{
-        flex: 0 0 calc(100% / 4); /* Change 3 to the number of cards you want per row */
-        box-sizing: border-box;
-        padding: 5px;
+        
     }
     .description{
         width: 40%;
