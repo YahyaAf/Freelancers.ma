@@ -505,11 +505,6 @@ body {
     .head_fend_job .content_fend_job .input_localisation {
       max-width: 50rem;
     }
-    .head_fend_job .content_fend_job .button_search a{
-      padding: 1.5rem;
-      font-size: 1.8rem;
-      font-weight: 500;
-    }
   }
   
   @media (min-width: 1024px) and (max-width: 1279px) {
@@ -540,11 +535,16 @@ body {
           font-weight: 400;
           text-align: center; 
         }
-  
-      .head_fend_job .content_fend_job .input_search,
-      .head_fend_job .content_fend_job .input_localisation {
-        max-width: 60rem;
-      }
+        .head_fend_job .content_fend_job .bottom_inputs {
+            display:grid;
+            grid-template-columns:repeat(3,1fr) ;
+            justify-items: center;
+          }
+        
+          .head_fend_job .content_fend_job .input_search,
+          .head_fend_job .content_fend_job .input_localisation {
+            max-width: 50rem;
+          }
   }
   
   /*----------------------------------
