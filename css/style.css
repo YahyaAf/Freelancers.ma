@@ -1200,7 +1200,6 @@ footer {
     margin-top: 10rem;
     background-color: rgb(255, 255, 255);
     height: auto;
-    width: 90%;
 }
 .footer-holder {
     display: flex;
@@ -1239,10 +1238,6 @@ footer {
   
 .footer-holder .for-clients-side {
     padding-top: 2rem;
-}
-.for-clients-side ul{
-    display: flex;
-    flex-direction: column;
 }
   
 .footer-holder .for-clients-side h4 {
