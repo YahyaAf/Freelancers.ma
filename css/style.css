@@ -1194,17 +1194,10 @@ section .last-section-holder {
     border: none;
 }
 
-/* footer styling */
-
-footer {
-    margin-top: 10rem;
-    background-color: rgb(255, 255, 255);
-    height: auto;
-}
 .footer-holder {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
+    margin-top: 20rem;
 }
 
 .footer-holder .logo-side,.for-clients-side,.for-freelancers,.call-us-side{
@@ -1270,85 +1263,37 @@ footer {
     line-height: 4rem;
     color: black; 
     font-family: sans-serif;
-    color: rgb(5, 5, 5);
-    padding-right: 2rem;
-}
-  
-.footer-holder .for-clients-side ul li {
-    list-style: none;
-    padding-top: 1rem;
-}
-  
-.footer-holder .logo-side .footer-logo-content p {
-    font-family: sans-serif;
-    color: black;
-}
-  
-.footer-holder .for-clients-side {
-    padding-top: 2rem;
-}
-  
-.footer-holder .for-clients-side h4 {
-    padding-top: 1.5rem;
-    padding-left: 2.3rem;
-    font-family: sans-serif;
-    text-transform: uppercase;
-}
-  
-.footer-holder .for-freelancers ul li a {
-    text-decoration: none;
-    font-family: sans-serif;
-    color: rgb(5, 5, 5);
-    padding-right: 4rem;
-}
-  
-.footer-holder .for-freelancers ul li {
-    list-style: none;
-}
-  
-.footer-holder .logo-side .footer-logo-side img {
-    padding-top: -1rem;
-    width : 10rem;
-}
-  
-.footer-holder .for-freelancers {
-    margin-top: 3.8rem;
-}
-  
-.footer-holder .for-freelancers h3 {
-    font-family: sans-serif;
-    text-transform: uppercase;
-    font-size: 1rem;
-    padding-left: 2.5rem;
-}
-  
-.footer-holder .call-us-side {
-    margin-top: 3.5rem;
-    margin-left: 5rem;
-}
-  
-.footer-holder .call-us-side h4{
-    font-family: sans-serif;
-    text-transform: uppercase;
-    font-size: 1rem;
-    padding-right:0.5rem;
-}
-  
-.footer-holder .call-us-side .location,.phone,.email{
-       padding-top : 1rem;
-}
-  
-.footer-holder .for-freelancers ul li{
-    padding-top: 1.5rem;
+    font-size: 2rem;
 }
 
-footer p{
-    color:gray;
-    text-align : center;
-    font-family : sans-serif;
-    padding : 1rem 0 ;
+.footer-holder .for-freelancers ul{
+    display: block;
+    text-align: center;
+    padding-top: 2rem;
 }
-  
+
+.footer-holder .call-us-side{
+    margin-right: 5rem; 
+
+}
+
+.footer-holder .logo-side .footer-logo-content p{
+    padding-top: 3rem;
+}
+
+.footer-holder .logo-side .footer-logo-content p{
+    padding-top: 3rem;
+}
+
+.footer-holder .social-media-icons{
+    margin-top: 3rem;
+}
+
+.footer-holder .social-media-icons img{
+    height: 4rem;
+    width: 4rem;
+    padding-left: 1.5rem;
+}
 /*styling with media*/
 @media (max-width: 767px) {
     .footer-holder {
