@@ -19,10 +19,6 @@ html {
   font-size: 10px;
 }
 
-body {
-  font-family: "Poppins", sans-serif;
-}
-
 .SignUp {
   max-width: 667px;
   padding: 2rem 0;
@@ -75,11 +71,17 @@ body {
   border-bottom: 2px solid rgb(177, 177, 177);
 }
 
+.SignUp .element_SignUp .button_submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .SignUp .element_SignUp .button_submit button {
   font-size: 1.6rem;
   background-color: var(--SignUpColor);
   font-weight: 300;
-  padding: 1rem 1.5rem;
+  padding: .6rem 1.5rem;
   border-radius: 3rem;
   border: none;
   color: var(--white_color);
@@ -103,7 +105,7 @@ body {
 .element_SignUp .or_sign .div1 {
   background-color: var(--grey_color);
   width: 9rem;
-  height: 2px;
+  height: 5px;
 }
 
 .SignUp .element_SignUp .sociale-media ul {
@@ -131,9 +133,9 @@ a {
 }
 
 .SignUp .element_SignUp .choix a:hover {
-    cursor: pointer;
-    color: red;
-  }
+  cursor: pointer;
+  color: red;
+}
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .SignUp {
@@ -144,6 +146,9 @@ a {
   }
   .SignUp .element_SignUp .form form {
     width: 40rem;
+  }
+  .SignUp .element_SignUp input {
+    border-bottom: 2.3px solid rgb(177, 177, 177);
   }
   .SignUp .element_SignUp label {
     font-size: 1.6rem;
@@ -163,73 +168,89 @@ a {
   .SignUp .element_SignUp .sociale-media i {
     font-size: 2rem;
   }
-  .SignUp .element_SignUp .choix span , a{
+  .SignUp .element_SignUp .choix span,
+  a {
     font-size: 1.6rem;
   }
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
-    .SignUp {
-        max-width: 1279px;
-      }
-      .SignUp .element_SignUp h1 {
-        font-size: 2.8rem;
-      }
-      .SignUp .element_SignUp .form form {
-        width: 50rem;
-      }
-      .SignUp .element_SignUp label {
-        font-size: 1.8rem;
-      }
-      .SignUp .element_SignUp .button_submit button {
-        font-size: 1.8rem;
-      }
-      .element_SignUp .or_sign p {
-        font-size: 1.6rem;
-      }
-      .element_SignUp .or_sign .div1 {
-        width: 18rem;
-      }
-      .SignUp .element_SignUp .sociale-media ul {
-        gap: 3rem;
-      }
-      .SignUp .element_SignUp .sociale-media i {
-        font-size: 3rem;
-      }
-      .SignUp .element_SignUp .choix span , a{
-        font-size: 1.8rem;
-      }
+  .SignUp {
+    max-width: 1279px;
+  }
+  .SignUp .element_SignUp h1 {
+    font-size: 2.8rem;
+  }
+  .SignUp .element_SignUp .form form {
+    width: 50rem;
+  }
+  .SignUp .element_SignUp input {
+    border-bottom: 2.7px solid rgb(177, 177, 177);
+  }
+  .SignUp .element_SignUp label {
+    font-size: 1.8rem;
+  }
+  .SignUp .element_SignUp .button_submit button {
+    font-size: 1.8rem;
+  }
+  .element_SignUp .or_sign p {
+    font-size: 1.6rem;
+  }
+  .element_SignUp .or_sign .div1 {
+    width: 18rem;
+  }
+  .SignUp .element_SignUp .sociale-media ul {
+    gap: 3rem;
+  }
+  .SignUp .element_SignUp .sociale-media i {
+    font-size: 3rem;
+  }
+  .SignUp .element_SignUp .choix span,
+  a {
+    font-size: 1.8rem;
+  }
 }
 
 @media (min-width: 1280px) {
-    .SignUp {
-        min-width: 1280px;
-      }
-      .SignUp .element_SignUp h1 {
-        font-size: 3rem;
-      }
-      .SignUp .element_SignUp .form form {
-        width: 60rem;
-      }
-      .SignUp .element_SignUp label {
-        font-size: 2rem;
-      }
-      .SignUp .element_SignUp .button_submit button {
-        font-size: 2rem;
-      }
-      .element_SignUp .or_sign p {
-        font-size: 1.8rem;
-      }
-      .element_SignUp .or_sign .div1 {
-        width: 22rem;
-      }
-      .SignUp .element_SignUp .sociale-media ul {
-        gap: 4rem;
-      }
-      .SignUp .element_SignUp .sociale-media i {
-        font-size: 4rem;
-      }
-      .SignUp .element_SignUp .choix span , a{
-        font-size: 2rem;
-      }
+  .SignUp {
+    min-width: 1280px;
+    margin-left: 14rem;
+  }
+  .SignUp .element_SignUp .name input,
+  .SignUp .element_SignUp .e-mail input,
+  .SignUp .element_SignUp .password input{
+    height: 3rem;
+  }
+  .SignUp .element_SignUp h1 {
+    font-size: 3rem;
+  }
+  .SignUp .element_SignUp .form form {
+    width: 60rem;
+  }
+  .SignUp .element_SignUp input {
+    border-bottom: 3px solid rgb(177, 177, 177);
+  }
+  .SignUp .element_SignUp label {
+    font-size: 2rem;
+  }
+  .SignUp .element_SignUp .button_submit button {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .element_SignUp .or_sign p {
+    font-size: 1.8rem;
+  }
+  .element_SignUp .or_sign .div1 {
+    width: 23.5rem;
+  }
+  .SignUp .element_SignUp .sociale-media ul {
+    gap: 4rem;
+  }
+  .SignUp .element_SignUp .sociale-media i {
+    font-size: 4rem;
+  }
+  .SignUp .element_SignUp .choix span,
+  a {
+    font-size: 2rem;
+  }
 }
