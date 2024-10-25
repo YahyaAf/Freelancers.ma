@@ -1193,7 +1193,7 @@ p{
     border: none;
   }
   
-  /* Responsive styles of lest section */
+  /* Responsive styles of last section */
   
   @media only screen and (max-width: 768px) {
     .last-section-holder {
@@ -1205,7 +1205,8 @@ p{
     }
   }
 
-/*footer styling*/
+
+/*footer styling begin*/
 .footer-holder {
     display: grid;
     grid-template-columns: repeat(4,auto);
@@ -1223,7 +1224,8 @@ p{
 
   
   .footer-holder .logo-side {
-    margin-left: 2rem; 
+    margin-left: 3.5rem; 
+    margin-top: 2rem;
   }
 
 
@@ -1313,11 +1315,14 @@ p{
   
   /* Responsive styles of footer */
   
+  /* responsivity of less than 768 px screens */
+
   @media only screen and (max-width: 768px) {
     .footer-holder {
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: center;
     }
   
    
@@ -1325,21 +1330,32 @@ p{
     .footer-holder .for-clients-side,
     .footer-holder .for-freelancers,
     .footer-holder .call-us-side {
-      width: auto;
+      width: 100%;
       margin-top: 3.5rem;
+      text-align: center;
     }
 
     .footer-holder .logo-side {
-          width: 70%;
-          position: relative;
-          left: 2rem;
+          width: auto;
+          margin-bottom: 1rem;   
+    }
+
+    .footer-holder .logo-side .footer-logo-content p{
+        font-size: 1.5rem;
+        width: 100%;
     }
 
     .footer-holder .social-media-icons {
-        margin-bottom: 1.5rem;
-      }
+        margin-right: 5rem;
+    }
+
+    .footer-holder .logo-side .footer-logo-side {
+        margin-right: 4rem;
+    }
+
   }
   
+  /* responsivity of tablets*/
   @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .footer-holder {
       display: grid;
@@ -1356,14 +1372,11 @@ p{
     }
 
     .footer-holder .for-freelancers{
-        padding-right: 24rem;
+        padding-right: 20rem;
     }
    
   }
 
-/*****************
-***footer styling*
-ending************/
 /*****************
 ***footer styling*
 ending************/
