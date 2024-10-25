@@ -49,10 +49,10 @@ Freelancer is licensed under the MIT License. You can find more details in the L
 ## Authors
 ----------
 
--Hamza
--Yahya
--Mouad 
--Salma
+* [@YahyaAf](https://github.com/YahyaAf)
+* [@Salma-007](https://github.com/Salma-007)
+* [@MouadHallaffou](https://github.com/MouadHallaffou)
+* [@Hamza-01f](https://github.com/Hamza-01f)
 
 ## Acknowledgments
 ------------------
