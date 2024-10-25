@@ -558,8 +558,16 @@ nav p span{
     font-size: 10px;
 }
 
+.class-section1 h2{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.div-titre h2{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
 
-h1 span{
+h2 span{
     color: #1E88E5;
 }
 p{
@@ -623,11 +631,13 @@ p{
         margin: 0;
         padding: 0;
     }
-    h1{
-        font-size: 10px;
+    .class-section1 h2{
+        font-size: 2.3rem;
+        font-weight: bold;
     }
-    h1 span{
-        font-size: 24px;
+    .div-titre h2{
+        font-size: 2.3rem;
+        font-weight: bold;
     }
     body p{
         font-size: 20px;
@@ -680,12 +690,15 @@ p{
         margin: 0;
         padding: 0;
     }
-    h1{
-        font-size: 30px;
+    .class-section1 h2{
+        font-size: 2rem;
+        font-weight: bold;
     }
-    h1 span{
-        font-size: 30px;
+    .div-titre h2{
+        font-size: 2rem;
+        font-weight: bold;
     }
+
     body p{
         font-size: 20px;
     }
@@ -740,15 +753,20 @@ p{
         margin: 0;
         padding: 0;
     }
-    h1{
-        font-size: 30px;
+    .class-section1 h2{
+        font-size: 2.5rem;
+        font-weight: bold;
     }
-    h1 span{
-        font-size: 30px;
+    .div-titre h2{
+        font-size: 2.5rem;
+        font-weight: bold;
     }
-    body p{
+    /* h1 span{
+        font-size: 30px;
+    } */
+    /* body p{
         font-size: 20px;
-    }
+    } */
     .class-section1 p{
         font-size: 15px;
     }
@@ -876,7 +894,7 @@ p{
 @media (min-width:1280px) {
     
     .category .content .title h2{
-        font-size: 3rem;
+        font-size: 2.5rem;
         text-transform: capitalize;
         font-weight: bold;
     }
@@ -1067,7 +1085,7 @@ p{
     }
     
     .portfolio .content .heading h4{
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-weight: bold;
     }
     
