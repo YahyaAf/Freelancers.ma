@@ -895,7 +895,7 @@ p{
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: var(--white_color);
 }
 
@@ -1266,8 +1266,8 @@ p{
    }
   
   .logo-side .footer-logo-side img {
-    height: 3.5rem;
-    width: 15rem;
+    height: 3rem;
+    width: 13rem;
   }
   
   .footer-holder .for-clients-side,
