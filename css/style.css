@@ -533,7 +533,7 @@ nav p span{
     
 }
 /* end for grand disktop */
-.section11 {
+.section1-find-the-best-freelancers {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -653,7 +653,7 @@ p{
         width: 100%;
     }
     
-    .section11{
+    .section1-find-the-best-freelancers{
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
@@ -716,7 +716,7 @@ p{
         width: 100%;
     }
     
-    .section11{
+    .section1-find-the-best-freelancers{
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
@@ -785,7 +785,7 @@ p{
         width: 100%;
     }
     
-    .section11{
+    .section1-find-the-best-freelancers{
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
