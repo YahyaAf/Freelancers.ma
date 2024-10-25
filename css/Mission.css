@@ -76,6 +76,7 @@ nav p span{
 
 .select-div h1{
     padding: 5px;
+    font-size: 1.5rem;
 }
 
 .select-div{
@@ -113,9 +114,27 @@ nav p span{
 .linear-company{
     font-size: 1.5rem;
 }
+.price{
+    display: flex;
+    justify-content: end;
+    align-content: end;
+    background-color: green;
+    font-weight: bold;
+    color: white;
+    border-radius: 1.5rem;
+    padding: 5px;
+    font-size: large;
+    
+}
+.div-price{
+    display: flex;
+    justify-content: end;
+}
+
 .software{
     display: flex;
     gap: 2rem;
+    
     
 }
 .new-post{
@@ -179,7 +198,7 @@ nav p span{
     }
     .select-div h1{
         padding: 5px;
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .select-div{
         display: flex;
