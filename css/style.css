@@ -1234,8 +1234,9 @@ p{
 
   .footer-holder .logo-side .footer-logo-content p{
      color: black;
-     line-height: 3rem;
+     line-height: 2rem;
      width: 30rem;
+     font-size: 1.3rem;
    }
   
   .logo-side .footer-logo-side img {
@@ -1344,8 +1345,8 @@ p{
     }
 
     .footer-holder .logo-side .footer-logo-content p{
-        font-size: 1.5rem;
-        width: 100%;
+        font-size: 1.2rem;
+        width: 18rem;
     }
 
     .footer-holder .social-media-icons {
