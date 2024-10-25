@@ -74,6 +74,11 @@ body {
   outline: none;
   border-bottom: 2px solid rgb(177, 177, 177);
 }
+.login .element_login .button_submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .login .element_login .button_submit button {
   font-size: 1.6rem;
@@ -131,9 +136,9 @@ a {
 }
 
 .login .element_login .choix a:hover {
-    cursor: pointer;
-    color: red;
-  }
+  cursor: pointer;
+  color: red;
+}
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .login {
@@ -141,6 +146,9 @@ a {
   }
   .login .element_login h1 {
     font-size: 2.6rem;
+  }
+  .login .element_login input {
+    border-bottom: 2.3px solid rgb(177, 177, 177);
   }
   .login .element_login .form form {
     width: 40rem;
@@ -163,73 +171,88 @@ a {
   .login .element_login .sociale-media i {
     font-size: 2rem;
   }
-  .login .element_login .choix span , a{
+  .login .element_login .choix span,
+  a {
     font-size: 1.6rem;
   }
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
-    .login {
-        max-width: 1279px;
-      }
-      .login .element_login h1 {
-        font-size: 2.8rem;
-      }
-      .login .element_login .form form {
-        width: 50rem;
-      }
-      .login .element_login label {
-        font-size: 1.8rem;
-      }
-      .login .element_login .button_submit button {
-        font-size: 1.8rem;
-      }
-      .element_login .or_sign p {
-        font-size: 1.6rem;
-      }
-      .element_login .or_sign .div1 {
-        width: 18rem;
-      }
-      .login .element_login .sociale-media ul {
-        gap: 3rem;
-      }
-      .login .element_login .sociale-media i {
-        font-size: 3rem;
-      }
-      .login .element_login .choix span , a{
-        font-size: 1.8rem;
-      }
+  .login {
+    max-width: 1279px;
+  }
+  .login .element_login h1 {
+    font-size: 2.8rem;
+  }
+  .login .element_login .form form {
+    width: 50rem;
+  }
+  .login .element_login input {
+    border-bottom: 2.7px solid rgb(177, 177, 177);
+  }
+  .login .element_login label {
+    font-size: 1.8rem;
+  }
+  .login .element_login .button_submit button {
+    font-size: 1.8rem;
+  }
+  .element_login .or_sign p {
+    font-size: 1.6rem;
+  }
+  .element_login .or_sign .div1 {
+    width: 18rem;
+  }
+  .login .element_login .sociale-media ul {
+    gap: 3rem;
+  }
+  .login .element_login .sociale-media i {
+    font-size: 3rem;
+  }
+  .login .element_login .choix span,
+  a {
+    font-size: 1.8rem;
+  }
 }
 
 @media (min-width: 1280px) {
-    .login {
-        min-width: 1280px;
-      }
-      .login .element_login h1 {
-        font-size: 3rem;
-      }
-      .login .element_login .form form {
-        width: 60rem;
-      }
-      .login .element_login label {
-        font-size: 2rem;
-      }
-      .login .element_login .button_submit button {
-        font-size: 2rem;
-      }
-      .element_login .or_sign p {
-        font-size: 1.8rem;
-      }
-      .element_login .or_sign .div1 {
-        width: 22rem;
-      }
-      .login .element_login .sociale-media ul {
-        gap: 4rem;
-      }
-      .login .element_login .sociale-media i {
-        font-size: 4rem;
-      }
-      .login .element_login .choix span , a{
-        font-size: 2rem;
-      }
+  .login {
+    min-width: 1280px;
+    margin-left: 14rem;
+  }
+  .login .element_login h1 {
+    font-size: 3rem;
+  }
+  .login .element_login .name input,
+  .login .element_login .e-mail input,
+  .login .element_login .password input {
+    height: 3rem;
+  }
+  .login .element_login .form form {
+    width: 60rem;
+  }
+  .login .element_login input {
+    border-bottom: 3px solid rgb(177, 177, 177);
+  }
+  .login .element_login label {
+    font-size: 2rem;
+  }
+  .login .element_login .button_submit button {
+    font-size: 2rem;
+  }
+  .element_login .or_sign p {
+    font-size: 1.8rem;
+  }
+  .element_login .or_sign .div1 {
+    width: 22rem;
+  }
+  .login .element_login .sociale-media ul {
+    gap: 4rem;
+  }
+  .login .element_login .sociale-media i {
+    font-size: 4rem;
+  }
+  .login .element_login .choix span,
+  a {
+    font-size: 2rem;
+  }
 }
