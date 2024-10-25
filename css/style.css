@@ -1,17 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+html {
+    font-size: 10px; 
 }
 
-html {
-  font-size: 10px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
 }
 
 body {
-    font-family: "Poppins", sans-serif; 
+    font-family: Arial, sans-serif; 
 }
 header{
     background-color: rgba(242, 250, 250, 1);
@@ -220,6 +218,8 @@ nav p span{
     padding: 3px;
     width: 10rem;
     height: 3rem;
+    
+    
     }
     .section1 input{
         border: 1px solid white ;
@@ -1141,45 +1141,47 @@ p{
 ********     home page       *******
 ********************************* */
 
-/* last section styling & footer*/
-section .last-section-holder {
+/*last-section-styling*/
+.last-section-holder {
     text-align: center;
     background-color: rgba(232, 253, 253, 0.999);
     height: 25rem;
     position: relative;
     top: 11rem;
-}
+    padding: 2rem; 
+  }
   
-.last-section-holder h3,
-  p,
-  input,
-  button {
+  .last-section-holder h3,
+  .last-section-holder p,
+  .last-section-holder input,
+  .last-section-holder button {
     font-family: sans-serif;
-}
+  }
   
-.last-section-holder h1 {
-    padding-top: 3.5rem;
+  .last-section-holder h1 {
+    padding-top: 1rem; 
     font-family: sans-serif;
-    font-size: 2rem;
+    color: black;
+    font-size: 3rem;
     letter-spacing: 0.2rem;
-}
+  }
   
-.last-section-holder p {
+  .last-section-holder p {
     letter-spacing: 0.1rem;
     font-family: sans-serif;
     color: rgb(49, 48, 48);
-}
+  }
   
-.last-section-holder input {
-    margin-top: 2rem;
+  .last-section-holder input {
+    margin-top: 1rem; 
     border-radius: 0.5rem;
-    height: 3rem;
-    width: 31rem;
+    height: 5rem;
+    width: 45%; 
     border: none;
-}
+  }
   
-.last-section-holder button {
-    margin-right: 5rem;
+  .last-section-holder button {
+    margin-top: 1rem; 
     width: 11rem;
     height: 2.9rem;
     border-radius: 0.3rem;
@@ -1187,143 +1189,181 @@ section .last-section-holder {
     font-family: sans-serif;
     font-size: 1rem;
     color: azure;
-    margin-top: 1.5rem;
-    margin-right: 9rem;
-    position: relative;
-    left: 4.6rem;
     border: none;
-}
+  }
+  
+  /* Responsive styles of lest section */
+  
+  @media only screen and (max-width: 768px) {
+    .last-section-holder {
+      padding: 1rem; 
+    }
+  
+    .last-section-holder input {
+      width: 90%; 
+    }
+  }
 
+/*footer styling*/
 .footer-holder {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20rem;
-}
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    margin-top: 15rem; 
+    padding-bottom: 4rem;
+  }
+  
+  .footer-holder .logo-side,
+  .footer-holder .for-clients-side,
+  .footer-holder .for-freelancers,
+  .footer-holder .call-us-side {
+    width: auto;
+  }
 
-.footer-holder .logo-side{
-     margin-left: 4rem;
-}
 
-.logo-side .footer-logo-side img{
-    height: 6rem;
-    width: 20rem;
-}
+  
+  .footer-holder .logo-side {
+    margin-left: 2rem; 
+  }
 
-.logo-side .footer-logo-content p{
+
+  .footer-holder .logo-side .footer-logo-content p{
+     color: black;
+     line-height: 3rem;
+     width: 30rem;
+   }
+  
+  .logo-side .footer-logo-side img {
+    height: 3rem;
+    width: 13rem;
+  }
+  
+  .footer-holder .for-clients-side,
+  .footer-holder .for-freelancers,
+  .footer-holder .call-us-side {
+    margin: 1rem; 
+  }
+  
+  .footer-holder .for-clients-side h4,
+  .footer-holder .call-us-side h4,
+  .footer-holder .for-freelancers h3 {
+    text-align: center;
     font-family: sans-serif;
     color: black;
-}
-
-footer p{
-    padding-top: 4rem;
-    text-align: center;
-}
-
-.footer-holder .logo-side,.for-clients-side,.for-freelancers,.call-us-side{
-    width: auto;
-    width: 32rem;
-}
-
-.call-us-side{
-    margin-left: 3rem;
-}
-
-.footer-holder .for-clients-side ul{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-holder .for-clients-side ul,
+  .footer-holder .for-freelancers ul {
     display: block;
     text-align: center;
-    padding-top: 2rem;
-}
-
-.footer-holder .for-clients-side h4{
-    text-align: center;
-    font-family: sans-serif;
-    padding-top: 0.5rem;
+    padding-top: 1rem; 
+  }
+  
+  .footer-holder .for-clients-side ul li a,
+  .footer-holder .for-freelancers ul li a {
+    line-height: 3rem;
     color: black;
-    font-size: 2.5rem;
-    text-transform: uppercase;
-}
-
-.footer-holder .call-us-side h4{
-    text-align: center;
     font-family: sans-serif;
-    color: black;
-    font-size: 2.5rem;
-    text-transform: uppercase;
-}
-
-.footer-holder .call-us-side .location,.phone,.email{
+    font-size: 1.5rem;
+  }
+  
+  .footer-holder .call-us-side .location,
+  .footer-holder .call-us-side .phone,
+  .footer-holder .call-us-side .email {
     text-align: center;
-    line-height: 6rem;
-}
-
-.call-us-side .phone{
+    line-height: 4rem; 
+  }
+  
+  .footer-holder .call-us-side .phone {
     padding-left: 5.2rem;
-}
-
-.call-us-side .email{
+  }
+  
+  .footer-holder .call-us-side .email {
     padding-left: 7rem;
-}
-
-.call-us-side .location{
+  }
+  
+  .footer-holder .call-us-side .location {
     padding-right: 3rem;
-}
-
-.call-us-side .location,.phone,.email{
+  }
+  
+  .footer-holder .call-us-side .location,
+  .footer-holder .call-us-side .phone,
+  .footer-holder .call-us-side .email {
     font-size: 1.5rem;
     color: black;
     font-family: sans-serif;
-}
-
-.footer-holder .for-freelancers h3{
-    text-align: center;
-    font-family: sans-serif;
-    color: black ;
-    font-size: 2rem;
-    text-transform: uppercase;
-}
-
-.footer-holder .for-clients-side,.for-freelancers ul li a{
-    line-height: 4rem;
-    color: black; 
-    font-family: sans-serif;
-    font-size: 2rem;
-}
-
-.for-clients-side ul li a{
-    color: black;
-}
-
-.footer-holder .for-freelancers ul{
-    display: block;
-    text-align: center;
-    padding-top: 2rem;
-}
-
-.footer-holder .call-us-side{
-    margin-right: 5rem; 
-
-}
-
-.footer-holder .logo-side .footer-logo-content p{
-    padding-top: 3rem;
-}
-
-.footer-holder .logo-side .footer-logo-content p{
-    padding-top: 3rem;
-}
-
-.footer-holder .social-media-icons{
-    margin-top: 3rem;
-}
-
-.footer-holder .social-media-icons img{
+  }
+  
+  .footer-holder .call-us-side {
+    margin-right: 3rem; 
+  }
+  
+  .footer-holder .social-media-icons {
+    margin-top: 1rem;
+  }
+  
+  .footer-holder .social-media-icons img {
     height: 3rem;
     width: 4rem;
-    padding-left: 1rem;
-}
+    padding-left: 2rem;
+  }
+  
+  /* Responsive styles of footer */
+  
+  @media only screen and (max-width: 768px) {
+    .footer-holder {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+   
+    .footer-holder .logo-side,
+    .footer-holder .for-clients-side,
+    .footer-holder .for-freelancers,
+    .footer-holder .call-us-side {
+      width: auto;
+      margin-top: 3.5rem;
+    }
 
+    .footer-holder .logo-side {
+          width: 70%;
+          position: relative;
+          left: 2rem;
+    }
 
-/***********************************
-****** end footer portfolios *******
-********     home page       *******
-************************************/
+    .footer-holder .social-media-icons {
+        margin-bottom: 1.5rem;
+      }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .footer-holder {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2,1fr);
+      grid-gap: 1rem;
+    }
+  
+    .footer-holder .logo-side,
+    .footer-holder .for-clients-side,
+    .footer-holder .for-freelancers,
+    .footer-holder .call-us-side {
+      grid-column: span 1;
+    }
+
+    .footer-holder .for-freelancers{
+        padding-right: 24rem;
+    }
+   
+  }
+
+/*****************
+***footer styling*
+ending************/
+/*****************
+***footer styling*
+ending************/
+
