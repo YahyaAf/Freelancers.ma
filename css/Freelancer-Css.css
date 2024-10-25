@@ -13,7 +13,126 @@ body{
 }
 
 
+/*------------- find a freelancer first section hamza ------------*/
 
+.section-recherche {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 4.5rem; 
+    margin-bottom: 4rem;
+  }
+  
+  .section-recherche p {
+    font-size: 14px;
+    color: black;
+  }
+  
+  .section-recherche span {
+    color: #007BFF;
+  }
+  
+  .section-recherche h1,
+  .section-recherche p {
+    margin-bottom: 1rem; 
+  }
+  
+  .input_search {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      width: 100%; 
+  }
+
+  .input_search form{
+    width : 100%;
+  }
+  
+  .input_search input {
+      padding: 10px;
+      border: 2px solid #ccc;
+      border-radius: 3px;
+      font-size: 12px;
+      color: #333;
+      padding-left: 25px;
+      flex: 1; 
+      height: 4.5rem;
+      width: 60rem;
+      border-right: 22px;
+  }
+
+  .input_search i {
+    position: absolute; 
+    left: 10px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    color: #aaa; 
+    }
+  
+  .input_search i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa;
+  }
+
+  
+  .input_search button {
+      height: 4.5rem;
+      font-size: 11px;
+      border: none;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 3px;
+      cursor: pointer;
+      width: 12rem;
+  }
+   
+  .section-recherche h1 {
+    font-weight: bold;
+  }
+  
+/* Responsive styles begin */
+  
+  @media (max-width: 767px) {
+      .input_search {
+          flex-direction: row; 
+      }
+  
+      .input_search input {
+          font-size: 12px; 
+          width: 70%;
+      }
+  
+      .input_search button {
+          font-size: 1rem; 
+          width: 8.4rem;
+      }
+
+      .input_search button {
+        width: 8.4rem;
+      }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+      .input_search {
+          flex-direction: row; 
+      }
+  
+      .input_search input {
+          font-size: 11px; 
+      }
+  
+      .input_search button {
+          font-size: 1.2rem; 
+          width: 10rem;
+      }
+  }
+/*responsive style ends*/
+
+/* -------------- first section ends hamza --------------*/
 /* -------------find a freelancer CSS------------------- */
 
 .freelancers{
